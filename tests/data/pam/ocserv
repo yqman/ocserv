@@ -1,0 +1,5 @@
+#%PAM-1.0
+auth       required	/usr/lib/x86_64-linux-gnu/pam_wrapper/pam_matrix.so passdb=%PAM_WRAPPER_SERVICE_DIR%/passdb
+account    required	/usr/lib/x86_64-linux-gnu/pam_wrapper/pam_matrix.so passdb=%PAM_WRAPPER_SERVICE_DIR%/passdb
+account    required	/usr/lib/x86_64-linux-gnu/pam_wrapper/pam_matrix.so passdb=%PAM_WRAPPER_SERVICE_DIR%/passdb
+session    required	/usr/lib/x86_64-linux-gnu/pam_wrapper/pam_matrix.so passdb=%PAM_WRAPPER_SERVICE_DIR%/passdb

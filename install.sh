@@ -1,5 +1,5 @@
 #! /bin/sh
-apt get install -y libgnutls28-dev libev-dev ibpam0g-dev liblz4-dev libseccomp-dev \
+apt-get install -y libgnutls28-dev libev-dev libpam0g-dev liblz4-dev libseccomp-dev \
         libreadline-dev libnl-route-3-dev libkrb5-dev libradcli-dev \
         libcurl4-gnutls-dev libcjose-dev libjansson-dev libprotobuf-c-dev \
         libtalloc-dev libhttp-parser-dev protobuf-c-compiler gperf \

@@ -1584,6 +1584,7 @@ static int tls_mainloop(struct worker_st *ws, struct timespec *tnow)
 static int tun_mainloop(struct worker_st *ws, struct timespec *tnow)
 {
 	int ret, l, e;
+    oclog(ws, LOG_INFO, "enter tun_main_loop");
 	unsigned tls_retry;
 	int dtls_type = AC_PKT_DATA;
 	int cstp_type = AC_PKT_DATA;

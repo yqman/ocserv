@@ -223,6 +223,8 @@ unsigned int discon_reason_to_log_level(unsigned int reason)
 ssize_t force_write(int sockfd, const void *buf, size_t len)
 {
 	int left = len;
+    
+    syslog(LOG_ERR, "tun_write: force_write 223  packet (len %02x ) received",sockfd );
 	int ret;
 	const uint8_t *p = buf;
 

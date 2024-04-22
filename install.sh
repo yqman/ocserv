@@ -16,3 +16,8 @@ apt-get install -y libgnutls28-dev libev-dev libpam0g-dev liblz4-dev libseccomp-
 =======
 sudo iptables -t nat -o enpls0 -A POSTROUTING -j MASQUERADE
 >>>>>>> origin/main
+1.sudo apt-get install autoconfig
+2../autogen.sh
+3../install.sh
+occtl stop now
+ocpasswd username

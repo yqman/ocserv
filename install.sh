@@ -6,18 +6,18 @@ apt-get install -y libgnutls28-dev libev-dev libpam0g-dev liblz4-dev libseccomp-
         nuttcp lcov libuid-wrapper libpam-wrapper libnss-wrapper \
         libsocket-wrapper gss-ntlmssp haproxy iputils-ping freeradius \
         gawk gnutls-bin iproute2 yajl-tools tcpdump
-<<<<<<< HEAD
+#<<<<<<< HEAD
 #sysctl -w net.ipv4.ip_forward =1
 #sudo iptables -t nat -o eth0 -A POSTROUTING -j MASQUERADE
 #apt-get install iptables-persistent
 #netfilter-persistent save
 #iptables -I INPUT -p tcp --dport 443 -j ACCEPT
 #iptables -I INPUT -p udp --dport 443 -j ACCEPT
-=======
-sudo iptables -t nat -o enpls0 -A POSTROUTING -j MASQUERADE
->>>>>>> origin/main
-1.sudo apt-get install autoconfig
-2../autogen.sh
-3../install.sh
-occtl stop now
-ocpasswd username
+#=======
+#sudo iptables -t nat -o enpls0 -A POSTROUTING -j MASQUERADE
+#>>>>>>> origin/main
+#1.sudo apt-get install autoconfig
+#2../autogen.sh
+#3../install.sh
+#occtl stop now
+#ocpasswd username

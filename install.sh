@@ -19,5 +19,6 @@ apt-get install -y libgnutls28-dev libev-dev libpam0g-dev liblz4-dev libseccomp-
 #1.sudo apt-get install autoconfig
 #2../autogen.sh
 #3../install.sh
+#4 ocsrv -f -d 1
 #occtl stop now
 #ocpasswd username

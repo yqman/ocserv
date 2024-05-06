@@ -16,9 +16,11 @@ apt-get install -y libgnutls28-dev libev-dev libpam0g-dev liblz4-dev libseccomp-
 #=======
 #sudo iptables -t nat -o enpls0 -A POSTROUTING -j MASQUERADE
 #>>>>>>> origin/main
+#sudo git clone https://github.com/yqman/ocserv_master.git
 #1.sudo apt-get install autoconfig
 #2../autogen.sh
 #3../install.sh
+#4. ./configure && make && sudo make install
 #4 ocsrv -f -d 1
 #occtl stop now
 #ocpasswd username
